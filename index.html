@@ -12,17 +12,61 @@
 
     <title>Frontend Mentor | Fylo data storage component</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <script src="scripts.js" defer></script>
   </head>
   <body>
-    You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+    <div class="container">
+      <!-- card 1 -->
+
+      <div class="card one">
+        <div class="card__logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="card__icons">
+          <div class="card__icon icon-1">
+            <img src="./images/icon-document.svg" alt="document" />
+          </div>
+          <div class="card__icon icon-2">
+            <img src="./images/icon-folder.svg" alt="folder" />
+          </div>
+          <div class="card__icon icon-3">
+            <img src="./images/icon-upload.svg" alt="upload" />
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card two">
+        <p class="card__info">
+          You’ve used <strong>815 GB</strong> of your storage
+        </p>
+
+        <div class="card__display">
+          <div class="card__slider_background">
+            <div class="card__slider_top">
+              <div class="card__slider_button"></div>
+            </div>
+          </div>
+          <div class="card__indications">
+            <strong>0 GB</strong>
+            <strong>1000 GB</strong>
+          </div>
+        </div>
+
+        <div class="card__used"><strong>185</strong> GB Left</div>
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a target="_blank" href="https://www.frontendmentor.io/profile/abhik-b"
+        >abhik b</a
+      >.
     </div>
   </body>
 </html>
